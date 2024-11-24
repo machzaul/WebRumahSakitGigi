@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lihat Hasil Kunjungan - Rumah Sakit Gigi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Rumah Sakit Gigi</div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buatjanji.html">Buat Janji</a></li>
+                <li><a href="jadwaldokter.html">Jadwal Dokter</a></li>
+                <li><a href="lihathasil.html" class="active">Hasil Kunjungan</a></li>
+                <li><a href="login.html">Login Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hasil Kunjungan Section -->
+    <section id="hasilkunjungan" class="results-section">
+        <div class="container">
+            <h1>Hasil Kunjungan</h1>
+            <p>Lihat hasil kunjungan Anda berikut ini:</p>
+
+            <!-- Table Hasil Kunjungan -->
+            <div class="data-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nama Pasien</th>
+                            <th>Dokter</th>
+                            <th>Tanggal</th>
+                            <th>Diagnosis</th>
+                            <th>Perawatan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>Dr. Andi Setiawan</td>
+                            <td>2024-11-25</td>
+                            <td>Caries Ringan</td>
+                            <td>Pembersihan Plak</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jane Smith</td>
+                            <td>Dr. Rina Mulyani</td>
+                            <td>2024-11-26</td>
+                            <td>Caries Sedang</td>
+                            <td>Penambalan Gigi</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Robert Wilson</td>
+                            <td>Dr. Surya Pratama</td>
+                            <td>2024-11-27</td>
+                            <td>Caries Berat</td>
+                            <td>Cabut Gigi dan Konsultasi Ortodontik</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Back to Home Button -->
+            <a href="index.html" class="btn-primary animated-btn">
+                <i class="fas fa-home"></i> Kembali ke Beranda
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rumah Sakit Gigi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
