@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Lembayung - Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav>
+            <div class="logo">Klinik Lembayung</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buatjanji.html">Buat Janji</a></li>
+                <li><a href="jadwaldokter.html">Jadwal Dokter</a></li>
+                <li><a href="lihathasil.html">Hasil Kunjungan</a></li>
+                <li><a href="hubungikami.html" class="active">Hubungi Kami</a></li>
+                <li><a href="login.html">Login Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hubungi Kami Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h1>Hubungi Kami</h1>
+            <p>Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui formulir berikut:</p>
+
+            <div class="contact-container">
+                <!-- Formulir Kontak -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary animated-btn">Kirim Pesan</button>
+                </form>
+
+                <!-- Informasi Kontak -->
+                <div class="contact-info">
+                    <h2>Informasi Kontak</h2>
+                    <p><strong>Alamat:</strong> Jl. Sehat No. 45, Bandung</p>
+                    <p><strong>Telepon:</strong> (022) 123-4567</p>
+                    <p><strong>Email:</strong> info@kliniklembayung.com</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31547.874548595067!2d107.59368806498002!3d-6.914864056603796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6362e7260b1%3A0x1111111111111111!2sBandung!5e0!3m2!1sen!2sid!4v1684580956262!5m2!1sen!2sid"
+                        width="100%"
+                        height="250"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Klinik Lembayung. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
