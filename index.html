@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rumah Sakit Gigi</title>
+    <title>Rumah Sakit Gigi - Beranda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="main-header">
         <nav>
             <div class="logo">Rumah Sakit Gigi</div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html" class="active">Beranda</a></li>
                 <li><a href="buatjanji.html">Buat Janji</a></li>
                 <li><a href="jadwaldokter.html">Jadwal Dokter</a></li>
+                <li><a href="lihathasil.html">Hasil Kunjungan</a></li>
                 <li><a href="login.html">Login Admin</a></li>
             </ul>
         </nav>
@@ -22,31 +23,33 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div class="hero-content">
             <h1>Senyum Sehat, Hidup Lebih Ceria</h1>
             <p>Pelayanan kesehatan gigi terbaik untuk Anda dan keluarga.</p>
-            <a href="buatjanji.html" class="btn-primary">Buat Janji Sekarang</a>
+            <a href="buatjanji.html" class="btn-primary animated-btn">Buat Janji Sekarang</a>
         </div>
     </section>
 
     <!-- Layanan Section -->
-    <section id="services" class="services-section">
+    <section class="services">
         <div class="container">
             <h2>Layanan Kami</h2>
-            <div class="service-card">
-                <img src="images/checkup.jpg" alt="Pemeriksaan Gigi">
-                <h3>Pemeriksaan Gigi</h3>
-                <p>Layanan pemeriksaan gigi rutin untuk kesehatan gigi dan mulut Anda.</p>
-            </div>
-            <div class="service-card">
-                <img src="images/brace.jpg" alt="Pemasangan Kawat Gigi">
-                <h3>Pemasangan Kawat Gigi</h3>
-                <p>Perawatan ortodontik terbaik untuk gigi Anda.</p>
-            </div>
-            <div class="service-card">
-                <img src="images/cleaning.jpg" alt="Pembersihan Gigi">
-                <h3>Pembersihan Gigi</h3>
-                <p>Layanan pembersihan karang gigi untuk menjaga kesehatan gigi Anda.</p>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="images/checkup.jpg" alt="Pemeriksaan Gigi">
+                    <h3>Pemeriksaan Gigi</h3>
+                    <p>Layanan pemeriksaan gigi rutin untuk kesehatan gigi dan mulut Anda.</p>
+                </div>
+                <div class="card">
+                    <img src="images/brace.jpg" alt="Pemasangan Kawat Gigi">
+                    <h3>Pemasangan Kawat Gigi</h3>
+                    <p>Perawatan ortodontik terbaik untuk gigi Anda.</p>
+                </div>
+                <div class="card">
+                    <img src="images/cleaning.jpg" alt="Pembersihan Gigi">
+                    <h3>Pembersihan Gigi</h3>
+                    <p>Layanan pembersihan karang gigi untuk menjaga kesehatan gigi Anda.</p>
+                </div>
             </div>
         </div>
     </section>
